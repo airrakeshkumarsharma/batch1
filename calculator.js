@@ -1,12 +1,10 @@
 let x  = 10
 let y = 10
-let z = 20
 
-console.log("Add", x + y + z)
-console.log("sub", x - y + z)
-console.log("Mul", x * y + z)
-console.log("Div", x / y + z)
-console.log("Mod", x % y + z)
+// make a calculator
+console.log("Add", x + y)
+console.log("sub", x - y)
+console.log("Mul", x * y)
+console.log("Div", x / y)
+console.log("Mod", x % y)
 
-// Day 1 -> two variables
-// Day 2 -> three variables
