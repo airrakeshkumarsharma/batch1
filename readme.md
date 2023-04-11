@@ -9,4 +9,4 @@
 ### While loop task
 - [ ] Write a program to print all the numbers from 1 to 100
 - [ ] Find total digits in 33333333
-- [ ] Find sum of digits of 43443323
+- [ ] Find sum of digits of 43443

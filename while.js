@@ -10,11 +10,23 @@
 // }
 
 // digits = 1213 = 4
-let num = 121344934903840938049332232323232323223233323
-let count = 0
-while(num > 0) {
-    num = Math.floor(num / 10)  // Assignment x=x/10
-    count++
+// let num = 33333333
+// let count = 0
+// while(num > 0) {
+//     num = Math.floor(num / 10)  // Assignment x=x/10
+//     count++
+// }
+
+// console.log(count)
+
+let num = 2232
+let rem
+let sum = 0
+
+while(num>0) {
+    rem = num % 10
+    num = Math.floor(num / 10)
+    sum = sum + rem
 }
 
-console.log(count)
+console.log(sum)
