@@ -18,4 +18,3 @@
 4. Print 1 to 10 odd numbers
 5. Print 1 to 10 even numbers in reverse order
 6. Print 1 to 10 odd numbers in reverse order
-

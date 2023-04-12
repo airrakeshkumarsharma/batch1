@@ -29,4 +29,16 @@ while(num>0) {
     sum = sum + rem
 }
 
-console.log(sum)
+// console.log(sum)
+
+
+// let num = 1
+
+// while(num > 10) {
+
+//     if(num%2 == 1) {
+//         console.log(num)
+//     }
+
+//     num++
+// }
