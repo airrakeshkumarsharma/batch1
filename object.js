@@ -1,4 +1,4 @@
-const classStudent = {
+const classStudent1 = {
     firstName: "rahul",
     secondName: "kumar",
     lastName: "singh",
@@ -8,26 +8,24 @@ const classStudent = {
     dob: "12/12/2000",
 }
 
-const fullName = `${classStudent.firstName} ${classStudent.secondName} ${classStudent.lastName}`
+console.log(classStudent1.firstName)
 
-// % = totalObtainedMarks/totalMarks * 100
-const marks = (classStudent.marksObtained/500)*100
-console.log(marks)
-
-const bankCustomer = {
-    bankName: "HDFC",
-    savingAccount: 1,
-    currentAccount: 1,
-    goldLoan: 50000,
-    educationLoan: 100000,
-    currentAccountNumber: 222323,
-    savingAccountNumber: 4343434,
-    address: "spj",
-    mobile: "323232323",
-    salary: 600000 // yearly
+const classStudent2 = {
+    firstName: "ramesh",
+    secondName: "kumar",
+    lastName: "roy",
+    rollnumber: 10,
+    class: 10,
+    marksObtained: 250,
+    dob: "12/12/2002",
 }
 
-// 1. find total accounts of that customer in hdfc
-// 2. Total loan amount
-// 3. Find total salary/month
-// 4. Print the bank name in which he is having account
+const classStudent3 = {
+    firstName: "raj",
+    secondName: "kumar",
+    lastName: "das",
+    rollnumber: 1,
+    class: 10,
+    marksObtained: 300,
+    dob: "12/12/2003",
+}
