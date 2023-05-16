@@ -3,6 +3,7 @@
 // 1. Find max number from two number: x = -1, y = 5
 // 2. max = -Infinity, array[i]>max -> max = array[i]
 
+const array = [5, 3, 1, 7, 2, 10]; // 5 -1
 
 function findMaxNumberFromArray(array) {
     let i = 0 // 0, 1
@@ -37,7 +38,6 @@ function findMinNumberFromArray(array) {
     return min
 }
 
-const array = [5, 3, 1, 7, 2]; // 5 -1
 
 const max = findMaxNumberFromArray(array)
 const min = findMinNumberFromArray(array)
