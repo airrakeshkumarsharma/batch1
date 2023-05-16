@@ -1,14 +1,28 @@
-Sure, here's a tentative plan for teaching JavaScript and Node.js to two learners over a period of 12 weeks:
+1. Given an array of integers, find the maximum and minimum values.
+    [3, 5, 7, 8, 1, 2] // max = 8, min = 1
+2. Given an array of integers, find the second largest and second smallest values.
+   [3, 5, 7, 8, 1, 2] // second largest = 7, second smallest = 2
+   
+3. Given an array of integers, find the sum of all even numbers.
+   [3, 5, 7, 8, 1, 2] // sum = 10
+   
+4. Given an array of integers, find the number of occurrences of a specific value.
+   [3, 1, 5, 7, 8, 1, 2] // 3 -> 1, 5 -> 1, 7 -> 1, 8 -> 1, 1 -> 2, 2 -> 1
+   
+5. Given two arrays of integers, find the intersection of the two arrays (i.e., the values that are present in both arrays).
+   [3, 5, 7, 8, 1, 2]
+   [1, 4, 5, 7, 9] // [5, 7, 1]
+   
+6. Given an array of integers, rotate the array by a specific number of positions.
+   [3, 5, 7, 8, 1, 2] // rotate by 5 -> [2, 3, 5, 7, 8, 1]
+     // rotate by 8 // [1, 2, 3, 5, 7, 8]   
+   
+7. Given an array of integers, remove all duplicates and return the modified array.
+    [3, 1, 5, 7, 8, 1, 2] // [3, 1, 5, 7, 8, 2]
+   
+8.  Given an array of integers, find the median value.
+    [3, 1, 5, 7, 8, 1, 2] // 3
 
-| Week | Topics | Learning Objectives | Assignments |
-|------|--------|---------------------|-------------|
-| 1    | JavaScript Basics | Introduction to JavaScript, Data Types, Variables, Operators, Functions, Control Structures | Write simple programs using variables, functions, and control structures |
-| 2    | JavaScript Advanced | Arrays, Objects, Classes, Inheritance, Error Handling | Develop programs using advanced concepts of JavaScript |
-| 3-4  | Web Development Basics | HTML, CSS, DOM Manipulation, Event Handling | Build a simple web page using HTML, CSS, and JavaScript |
-| 5-6  | Node.js Basics | Introduction to Node.js, Modules, NPM, File System, Streams, Buffers | Write simple programs using Node.js modules, file system, streams, and buffers |
-| 7    | Node.js Networking | HTTP, TCP/UDP, Socket.IO | Build a simple networked application using Node.js |
-| 8-9  | Express.js | Introduction to Express.js, Routing, Middleware, Templates, Error Handling | Build a simple RESTful API using Express.js |
-| 10-11| Databases | Introduction to Databases, SQL, NoSQL, MongoDB, Mongoose | Build a simple database-driven web application using Node.js and MongoDB |
-| 12   | Deployment | Introduction to Cloud Services, Deployment Strategies, Continuous Integration/Continuous Deployment | Deploy a simple web application to a cloud service using CI/CD pipelines |
-
-Of course, the specific topics and duration of each topic can be adjusted based on the learners' pace and proficiency. Additionally, the assignments can include coding exercises, quizzes, and projects to reinforce the concepts learned. The goal is to provide a strong foundation in JavaScript and Node.js, while also enabling the learners to build and deploy real-world applications.
+   
+3. Given an array of integers, find the subarray with the maximum sum.
+4.  Given an array of integers, return a new array where each element is the product of all other elements in the original array except for itself. 
